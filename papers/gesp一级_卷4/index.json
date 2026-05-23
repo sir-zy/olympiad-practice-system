@@ -1,0 +1,470 @@
+{
+  "title": "GESP C++ 一级 模拟卷4",
+  "category": "GESP",
+  "level": "1",
+  "date": "2026-06",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "GESP C++ 一级模拟卷4（冲刺模拟卷）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "B",
+      "content": "2026年春节联欢晚会上武术表演节目《武BOT》中，多个机器人表演空翻并保持队列。如果将机器人视为一个计算机系统，下列哪项不能作为输入设备？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "检测重心的重力传感器"
+        },
+        {
+          "key": "B",
+          "text": "预装的AI算法程序"
+        },
+        {
+          "key": "C",
+          "text": "接收动作指令的遥控器"
+        },
+        {
+          "key": "D",
+          "text": "拍摄其他机器人的摄像头"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "A",
+      "content": "小明学习编程有一段时间了，他想在图形环境下把文本文件的名字改一下。他用鼠标左键点击选中该文件后，立即完成下面哪个操作后将处于输入新文件名的状态？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "单击右键并选择\"重命名\""
+        },
+        {
+          "key": "B",
+          "text": "双击左键"
+        },
+        {
+          "key": "C",
+          "text": "按功能键F1"
+        },
+        {
+          "key": "D",
+          "text": "按回车键"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "A",
+      "content": "以下代码中，关于变量a, b的描述正确的是（ ）。\n\n```cpp\nint a = 5;\nif (a > 3) {\n    int b = 10;\n    cout << a + b;\n}\ncout << a;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "输出15和5"
+        },
+        {
+          "key": "B",
+          "text": "第二行cout<<a会报错"
+        },
+        {
+          "key": "C",
+          "text": "b在外面也可以使用"
+        },
+        {
+          "key": "D",
+          "text": "代码不能编译"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "D",
+      "content": "在C++中，下列哪项可以作为合法的变量名？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "X.cpp"
+        },
+        {
+          "key": "B",
+          "text": "X-cpp"
+        },
+        {
+          "key": "C",
+          "text": "X#cpp"
+        },
+        {
+          "key": "D",
+          "text": "X_cpp"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "C",
+      "content": "C++表达式 3 * 3 % 2 的值为（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "81"
+        },
+        {
+          "key": "B",
+          "text": "27"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "content": "以下代码执行后，其说法正确的是（ ）。\n\n```cpp\nint M = 0, N = 0;\ncin >> M >> N;\nif (N > M)\n    cout << (N - M);\nelse\n    cout << (M - N);\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "输入一个正数和一个负数，输出肯定大于0"
+        },
+        {
+          "key": "B",
+          "text": "不管是负整数、正整数或0，结果肯定≥0"
+        },
+        {
+          "key": "C",
+          "text": "N和M相等时无输出"
+        },
+        {
+          "key": "D",
+          "text": "N和M带小数时按整数部分计算"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "content": "以下关于C++代码的说法，正确的是（ ）。\n\n```cpp\ndouble PI = 3.1415926;\ncout << (PI);\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "cout<<(PI)和cout<<(pi)效果相同"
+        },
+        {
+          "key": "B",
+          "text": "PI改为Pi编译正常但值不同"
+        },
+        {
+          "key": "C",
+          "text": "不能用PI做变量名"
+        },
+        {
+          "key": "D",
+          "text": "全部PI改写为Pai能正常执行"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "C",
+      "content": "C++表达式 14 - 3 * 3 % 2 的值是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "0"
+        },
+        {
+          "key": "B",
+          "text": "11"
+        },
+        {
+          "key": "C",
+          "text": "13"
+        },
+        {
+          "key": "D",
+          "text": "-67"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "C",
+      "content": "执行以下代码，输出是（ ）。\n\n```cpp\nint a = 5;\nint b = ++a;\ncout << a << \" \" << b;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "5 5"
+        },
+        {
+          "key": "B",
+          "text": "5 6"
+        },
+        {
+          "key": "C",
+          "text": "6 6"
+        },
+        {
+          "key": "D",
+          "text": "6 5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "content": "以下代码用于判断某年是否为闰年（闰年：能被4整除但不能被100整除，或能被400整除），横线上应填入（ ）。\n\n```cpp\nint year;\ncin >> year;\nif (__________________)\n    cout << \"闰年\";\nelse\n    cout << \"平年\";\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "year % 4 == 0 && year % 100 != 0 || year % 400 == 0"
+        },
+        {
+          "key": "B",
+          "text": "year % 4 == 0 || year % 400 == 0"
+        },
+        {
+          "key": "C",
+          "text": "year % 4 == 0 && year % 400 == 0"
+        },
+        {
+          "key": "D",
+          "text": "year % 400 == 0"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "A",
+      "content": "以下代码执行后，输出是（ ）。\n\n```cpp\nint i, tnt = 1;\nfor (i = 0; i < 5; i++)\n    tnt *= i;\ncout << tnt << \" \" << i;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "0 5"
+        },
+        {
+          "key": "B",
+          "text": "10 5"
+        },
+        {
+          "key": "C",
+          "text": "0 4"
+        },
+        {
+          "key": "D",
+          "text": "24 5"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "B",
+      "content": "以下代码执行后，输出是（ ）。\n\n```cpp\nint i;\nfor (i = 1; i < 5; i++) {\n    if (i % 3 == 0)\n        break;\n    cout << i << \"#\";\n}\nif (i >= 5)\n    cout << \"END\";\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "1#2#"
+        },
+        {
+          "key": "B",
+          "text": "1#2#END"
+        },
+        {
+          "key": "C",
+          "text": "1#2"
+        },
+        {
+          "key": "D",
+          "text": "1#2#3#4#END"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "C",
+      "content": "以下代码用于判断判断N是否为位增数（如123），两处横线应填入（ ）。\n\n```cpp\nint N, n1, n2;\ncin >> N;\n__________;\nwhile (N) {\n    n1 = N % 10;\n    if (n1 >= n2) { cout << 0; return 1; }\n    n2 = n1, N /= 10;\n}\ncout << 1;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "n2 = N % 10"
+        },
+        {
+          "key": "B",
+          "text": "n2 = N % 10, N /= 10"
+        },
+        {
+          "key": "C",
+          "text": "n2 = N / 10, N %= 10"
+        },
+        {
+          "key": "D",
+          "text": "N /= 10"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "content": "执行以下代码可以找出百位、十位和个位满足 a²+b²=c² 的三位数。横线处应填入（ ）。\n\n```cpp\nfor (int i = 100; i <= 999; i++) {\n    int a = i / 100;\n    _____________\n    int c = i % 10;\n    if (a * a + b * b == c * c) count++;\n}\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "int b = (i / 10) / 10"
+        },
+        {
+          "key": "B",
+          "text": "int b = (i / 10) % 10"
+        },
+        {
+          "key": "C",
+          "text": "int b = (i % 10) / 10"
+        },
+        {
+          "key": "D",
+          "text": "int b = (i % 10) % 10"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "C",
+      "content": "以下代码用于判断N是否为双螺旋数（奇数位之和=偶数位之和）。空白处应填入（ ）。\n\n```cpp\nint N, N1 = 0, N2 = 0;\nwhile (N) {\n    ____________\n    ____________\n}\nif (N1 == N2) cout << \"Yes\";\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "N1 += N/10, N/=10;\nN2 += N/10, N/=10;"
+        },
+        {
+          "key": "B",
+          "text": "N1 += N%10, N/=10;\nN2 += N%10, N%=10;"
+        },
+        {
+          "key": "C",
+          "text": "N1 += N%10, N/=10;\nN2 += N%10, N/=10;"
+        },
+        {
+          "key": "D",
+          "text": "N1 += N/10, N%=10;\nN2 += N/10, N%=10;"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": true,
+      "content": "小明的电话手表除了看时间还能打电话、收发信息，可以推测手表中装有操作系统。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": true,
+      "content": "C++表达式 4 % 2 和 2 * 2 % 2 的结果相同。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": false,
+      "content": "在Windows中，1KB = 1000字节。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": true,
+      "content": "在C++中，false是关键字，不能作为变量名。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": false,
+      "content": "C++中定义整型变量N，执行scanf(\"%d\",&N); cout<<N/3*5; 时输入3.6，输出是6。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": true,
+      "content": "以下代码执行时输出是__0322$$。（ ）\n\n```cpp\nprintf(\"__%02d%2d$$\", 3, 22);\n```"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": true,
+      "content": "C++表达式 (N % 2 == 0) && (N % 3 == 0) 和 N % 6 == 0 对于所有正整数N效果相同。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": true,
+      "content": "C++中，表达式 100 / 200 * 200 的值是0。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": true,
+      "content": "以下代码能正确判断输入的正整数是否为对称数（回文数）。（ ）\n\n```cpp\nint n, rev = 0, old;\ncin >> n;\nold = n;\nwhile (n != 0) {\n    rev = rev * 10 + n % 10;\n    n /= 10;\n}\nif (old == rev)\n    cout << \"对称数\";\n```"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": true,
+      "content": "以下代码执行后输出为2500。（ ）\n\n```cpp\nint cnt = 0;\nfor (int i = 1; i < 100; i++)\n    cnt += i++;\ncout << cnt;\n```"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "",
+      "content": "### 编程题 1：商店折扣\n\n时间限制：1.0 s    内存限制：512.0 MB\n\n**【题目描述】**\n\n商店开展促销活动，给出两种方案：第一种是满 x 元减 y 元（只能用一次）；第二种是打 n 折（价格变为原价的 n/10）。\n\n小明挑选了总价为 p 元的物品，结账时只能选一种方案。请问小明最少需要支付多少钱？\n\n**【输入格式】**\n\n四行，四个正整数 x, y, n, p。x表示满减门槛，y表示满减金额，n表示折扣（1≤n≤9），p表示原价。\n\n**【输出格式】**\n\n一行，一个实数，保留两位小数，表示最少支付的金额。\n\n**【样例输入1】**\n\n```\n8\n7\n9\n10\n```\n\n**【样例输出1】**\n\n```\n3.00\n```\n\n**【样例输入2】**\n\n```\n8\n7\n2\n11\n```\n\n**【样例输出2】**\n\n```\n2.20\n```\n\n**【数据范围】**\n\n1 ≤ x, y ≤ 10000，1 ≤ n ≤ 9，1 ≤ p ≤ 10000。"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "",
+      "content": "### 编程题 2：数字替换\n\n时间限制：1.0 s    内存限制：512.0 MB\n\n**【题目描述】**\n\n小明不喜欢数字4，但觉得数字8寓意好。他想把一个整数中所有的数字4都替换成数字8。如果数中不含4则无需修改。\n\n**【输入格式】**\n\n一行，一个整数 N（可能很大，但不超过10⁹）。\n\n**【输出格式】**\n\n一行，替换后的整数。\n\n**【样例输入1】**\n\n```\n8459045\n```\n\n**【样例输出1】**\n\n```\n8859085\n```\n\n**【样例输入2】**\n\n```\n123\n```\n\n**【样例输出2】**\n\n```\n123\n```\n\n**【数据范围】**\n\n0 ≤ N ≤ 10⁹。"
+    }
+  ]
+}
