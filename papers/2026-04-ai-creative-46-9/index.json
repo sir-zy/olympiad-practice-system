@@ -29,7 +29,8 @@
           "text": "AI系统在移植过程中出现了算法参数偏移"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 2,
@@ -53,7 +54,8 @@
           "text": "反馈循环导致的信息茧房"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     },
     {
       "id": 3,
@@ -77,7 +79,8 @@
           "text": "女性候选人提交的简历质量确实不如男性"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 4,
@@ -101,7 +104,8 @@
           "text": "训练数据的标注存在严重错误"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 5,
@@ -125,7 +129,8 @@
           "text": "AI翻译软件只支持英语翻译"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 6,
@@ -149,7 +154,8 @@
           "text": "实验室测试所用的测试集与社区实际人群年龄分布不一致"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 7,
@@ -173,7 +179,8 @@
           "text": "那篇立意新颖的作文其实写得并不好"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 8,
@@ -197,7 +204,8 @@
           "text": "两套系统轮流使用各占一半时间"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 9,
@@ -221,7 +229,8 @@
           "text": "学生的情绪变化与课堂教学无关"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 10,
@@ -245,7 +254,8 @@
           "text": "专科毕业生的简历填写不够规范"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 11,
@@ -269,7 +279,8 @@
           "text": "训练数据中缺少红色气球的数据"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 12,
@@ -293,7 +304,8 @@
           "text": "应该把AI生成的内容直接作为论文提交"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 13,
@@ -317,7 +329,8 @@
           "text": "关键词库还不够大，增加更多关键词就能解决"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 14,
@@ -341,7 +354,8 @@
           "text": "前者更容易被发现用了AI"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 15,
@@ -365,7 +379,8 @@
           "text": "学生B应该主动向AI提出更多要求"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 16,
@@ -389,7 +404,8 @@
           "text": "误报比漏报更严重，系统应优先减少误报"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 17,
@@ -413,7 +429,8 @@
           "text": "按照用户指令生成符合要求的图片"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 18,
@@ -437,7 +454,8 @@
           "text": "普通感冒和肺炎的早期症状确实很相似"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 19,
@@ -461,7 +479,8 @@
           "text": "只使用AI对不涉及公平问题的领域做决策"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 20,
@@ -485,7 +504,8 @@
           "text": "应该取消AI客服全部改用人工"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 21,
@@ -509,7 +529,8 @@
           "text": "AI只是随机组合像素产生图片"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 22,
@@ -533,7 +554,8 @@
           "text": "训练数据中猫的颜色对AI没有影响"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 23,
@@ -557,7 +579,8 @@
           "text": "AI第二个回答是在回避问题"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 24,
@@ -581,7 +604,8 @@
           "text": "让AI直接给学生打分排名"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 25,
@@ -605,7 +629,8 @@
           "text": "掌握用AI完成所有作业的方法"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     }
   ]
 }

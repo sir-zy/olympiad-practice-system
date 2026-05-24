@@ -1,0 +1,470 @@
+{
+  "title": "GESP C++ 一级 模拟卷3",
+  "category": "GESP",
+  "level": "1",
+  "date": "2026-06",
+  "time_limit": 120,
+  "total_score": 100,
+  "description": "GESP C++ 一级模拟卷3（综合强化卷）",
+  "questions": [
+    {
+      "type": "choice",
+      "id": 1,
+      "score": 2,
+      "answer": "C",
+      "content": "2025年4月19日，北京举行了人形机器人半程马拉松赛。比赛中机器人利用身上安装的多个传感器反馈数据来调整姿态，这类传感器类似于计算机的（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "处理器"
+        },
+        {
+          "key": "B",
+          "text": "存储器"
+        },
+        {
+          "key": "C",
+          "text": "输入设备"
+        },
+        {
+          "key": "D",
+          "text": "输出设备"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 2,
+      "score": 2,
+      "answer": "D",
+      "content": "人工智能现在非常火热，人们经常提到\"大模型\"。那么\"大模型\"最贴切是指（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "大电脑模型"
+        },
+        {
+          "key": "B",
+          "text": "大规模智能"
+        },
+        {
+          "key": "C",
+          "text": "智能的单位"
+        },
+        {
+          "key": "D",
+          "text": "大语言模型"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 3,
+      "score": 2,
+      "answer": "C",
+      "content": "下面的C++代码用于输入姓名并输出，正确的说法是（ ）。\n\n```cpp\nstring XingMing;\ncout << \"请输入您的姓名：\";\ncin >> XingMing;\ncout << XingMing;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "XingMing是汉语拼音，不能作为变量名"
+        },
+        {
+          "key": "B",
+          "text": "可以将XingMing改为Xing Ming"
+        },
+        {
+          "key": "C",
+          "text": "可以将XingMing改为xingming"
+        },
+        {
+          "key": "D",
+          "text": "可以将XingMing改为Xing-Ming"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 4,
+      "score": 2,
+      "answer": "C",
+      "content": "以下哪个是C++语言的关键字？（ ）",
+      "options": [
+        {
+          "key": "A",
+          "text": "abs"
+        },
+        {
+          "key": "B",
+          "text": "cin"
+        },
+        {
+          "key": "C",
+          "text": "do"
+        },
+        {
+          "key": "D",
+          "text": "endl"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 5,
+      "score": 2,
+      "answer": "D",
+      "content": "执行以下C++代码，如果输入100和200，输出是（ ）。\n\n```cpp\nint first, second;\ncin >> first >> second;\ncout << (first / second * second) << endl;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "200"
+        },
+        {
+          "key": "B",
+          "text": "100"
+        },
+        {
+          "key": "C",
+          "text": "1"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 6,
+      "score": 2,
+      "answer": "B",
+      "content": "C++语句 printf(\"__%2d%02d$$\", 3, 22); 执行后的输出是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "__ 3 22$$"
+        },
+        {
+          "key": "B",
+          "text": "__ 322$$"
+        },
+        {
+          "key": "C",
+          "text": "__03 22$$"
+        },
+        {
+          "key": "D",
+          "text": "__ 3222$$"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 7,
+      "score": 2,
+      "answer": "D",
+      "content": "C++表达式 16 / 4 % 2 的值是（ ）。",
+      "options": [
+        {
+          "key": "A",
+          "text": "8"
+        },
+        {
+          "key": "B",
+          "text": "4"
+        },
+        {
+          "key": "C",
+          "text": "2"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 8,
+      "score": 2,
+      "answer": "B",
+      "content": "以下代码用于判断age是否在13到19之间（包括13和19），横线处应填入（ ）。\n\n```cpp\nif (______________)\n    cout << \"少年\";\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "age >= 13 || age <= 19"
+        },
+        {
+          "key": "B",
+          "text": "age >= 13 && age <= 19"
+        },
+        {
+          "key": "C",
+          "text": "13 <= age <= 19"
+        },
+        {
+          "key": "D",
+          "text": "age >= 13 && age <= 20"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 9,
+      "score": 2,
+      "answer": "A",
+      "content": "以下代码执行后，输出是（ ）。\n\n```cpp\nint a = 0;\nif (a = 5)\n    cout << \"A\";\nelse\n    cout << \"B\";\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "A"
+        },
+        {
+          "key": "B",
+          "text": "B"
+        },
+        {
+          "key": "C",
+          "text": "编译错误"
+        },
+        {
+          "key": "D",
+          "text": "无输出"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 10,
+      "score": 2,
+      "answer": "A",
+      "content": "以下代码执行后，输出是（ ）。\n\n```cpp\nint tnt = 0;\nfor (int i = -1000; i < 1000; i++)\n    tnt += i;\ncout << tnt;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "-1000"
+        },
+        {
+          "key": "B",
+          "text": "0"
+        },
+        {
+          "key": "C",
+          "text": "999"
+        },
+        {
+          "key": "D",
+          "text": "1000"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 11,
+      "score": 2,
+      "answer": "B",
+      "content": "以下代码执行后，N的值是（ ）。\n\n```cpp\nint N = 0, i;\nfor (i = 1; i < 100; i += 5)\n    N += 1;\ncout << N + i;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "120"
+        },
+        {
+          "key": "B",
+          "text": "121"
+        },
+        {
+          "key": "C",
+          "text": "119"
+        },
+        {
+          "key": "D",
+          "text": "100"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 12,
+      "score": 2,
+      "answer": "C",
+      "content": "以下代码执行后，输出是（ ）。\n\n```cpp\nint n = 0;\nfor (int i = 0; i < 100; i++)\n    n += i % 2;\ncout << n;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "5050"
+        },
+        {
+          "key": "B",
+          "text": "4950"
+        },
+        {
+          "key": "C",
+          "text": "50"
+        },
+        {
+          "key": "D",
+          "text": "49"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 13,
+      "score": 2,
+      "answer": "A",
+      "content": "当前是9月，编写代码求N个月后的月份。横线处应填入（ ）。\n\n```cpp\nint N, M;\ncin >> N;\nM = ___________;\nif (M == 0)\n    cout << N << \"个月后是12月\";\nelse\n    cout << N << \"个月后是\" << M << \"月\";\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "(9 + N) % 12"
+        },
+        {
+          "key": "B",
+          "text": "9 + N % 12"
+        },
+        {
+          "key": "C",
+          "text": "(9 + N) / 12"
+        },
+        {
+          "key": "D",
+          "text": "N % 12"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 14,
+      "score": 2,
+      "answer": "B",
+      "content": "以下代码执行后，输出是（ ）。\n\n```cpp\nint i;\nfor (i = 10; i < 100; i += 10) {\n    if (i % 10 == 0)\n        continue;\n    cout << i << \"#\";\n}\nif (i >= 100)\n    cout << i << \" END\";\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "10#20#...90#100 END"
+        },
+        {
+          "key": "B",
+          "text": "100 END"
+        },
+        {
+          "key": "C",
+          "text": "100#100 END"
+        },
+        {
+          "key": "D",
+          "text": "没有输出"
+        }
+      ]
+    },
+    {
+      "type": "choice",
+      "id": 15,
+      "score": 2,
+      "answer": "D",
+      "content": "以下代码用于记录多个输入数中的最大值和最小值（输入-999结束），相关说法错误的是（ ）。\n\n```cpp\ncin >> now;\nmin_num = max_num = now;\nwhile (now != -999) {\n    if (max_num < now) max_num = now;\n    if (min_num > now) min_num = now;\n    cin >> now;\n}\ncout << min_num << \" \" << max_num;\n```",
+      "options": [
+        {
+          "key": "A",
+          "text": "不输入-999则永远等待"
+        },
+        {
+          "key": "B",
+          "text": "成绩统计中可正常使用"
+        },
+        {
+          "key": "C",
+          "text": "第一个数输入-999，输出-999 -999"
+        },
+        {
+          "key": "D",
+          "text": "将cin移到while下结果不变"
+        }
+      ]
+    },
+    {
+      "type": "judge",
+      "id": 16,
+      "score": 2,
+      "answer": true,
+      "content": "在Windows的文件资源管理器中，要为一个已有文件建立副本，可以使用Ctrl+C复制后再Ctrl+V粘贴。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 17,
+      "score": 2,
+      "answer": false,
+      "content": "操作系统既是计算机硬件的一部分，也是一种应用软件。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 18,
+      "score": 2,
+      "answer": true,
+      "content": "C++中，float类型的变量占用4字节存储空间，double类型占用8字节。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 19,
+      "score": 2,
+      "answer": false,
+      "content": "C++代码 cout << (12 + 12.12) 编译将报错，因为12和12.12类型不同不能直接运算。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 20,
+      "score": 2,
+      "answer": true,
+      "content": "以下代码中，continue后面没有其他语句，删除continue不影响程序执行效果。（ ）\n\n```cpp\nfor (int i = 0; i < 100; i++) {\n    if (i % 2 == 0) {\n        cout << \"偶数\";\n        continue;\n    } else\n        cout << \"奇数\";\n}\n```"
+    },
+    {
+      "type": "judge",
+      "id": 21,
+      "score": 2,
+      "answer": false,
+      "content": "以下代码执行时，如果输入10回车和20回车，输出是10。（ ）\n\n```cpp\nint N, M;\ncin >> N;\ncin >> M;\ncout << (N / M * M);\n```"
+    },
+    {
+      "type": "judge",
+      "id": 22,
+      "score": 2,
+      "answer": true,
+      "content": "C++表达式 3 < 5 < 4 的值是true(1)。（ ）"
+    },
+    {
+      "type": "judge",
+      "id": 23,
+      "score": 2,
+      "answer": true,
+      "content": "以下代码用于判断正整数N是否同时被2和3整除，能正确实现功能。（ ）\n\n```cpp\nif (N % 6 == 0)\n    cout << \"Yes\";\n```"
+    },
+    {
+      "type": "judge",
+      "id": 24,
+      "score": 2,
+      "answer": true,
+      "content": "以下代码中，for循环的循环变量i的最终值是10。（ ）\n\n```cpp\nint i;\nfor (i = 0; i < 10; i++);\ncout << i;\n```"
+    },
+    {
+      "type": "judge",
+      "id": 25,
+      "score": 2,
+      "answer": true,
+      "content": "do-while循环的条件判断在循环体执行之后，因此循环体至少执行一次。（ ）"
+    },
+    {
+      "type": "program",
+      "id": 26,
+      "score": 25,
+      "answer": "",
+      "content": "### 编程题 1：美丽数字\n\n时间限制：1.0 s    内存限制：512.0 MB\n\n**【题目描述】**\n\n一个正整数被称为\"美丽数字\"，当且仅当它是9的倍数但不是8的倍数。\n\n例如：9是美丽数字（9的倍数，不是8的倍数），72不是美丽数字（既是9的倍数又是8的倍数），1不是美丽数字（不是9的倍数）。\n\n给定n个正整数，请计算其中美丽数字的个数。\n\n**【输入格式】**\n\n第一行，一个正整数 n，表示数字个数。\n\n第二行，n个用空格分隔的正整数。\n\n**【输出格式】**\n\n一行，一个整数，表示美丽数字的个数。\n\n**【样例输入1】**\n\n```\n3\n1 9 72\n```\n\n**【样例输出1】**\n\n```\n1\n```\n\n**【样例输入2】**\n\n```\n4\n18 27 36 45\n```\n\n**【样例输出2】**\n\n```\n4\n```\n\n**【数据范围】**\n\n对于所有测试点，保证 1 ≤ n ≤ 100，每个正整数 ≤ 10000。"
+    },
+    {
+      "type": "program",
+      "id": 27,
+      "score": 25,
+      "answer": "",
+      "content": "### 编程题 2：四舍五入到整十\n\n时间限制：1.0 s    内存限制：512.0 MB\n\n**【题目描述】**\n\n四舍五入是一种常见的近似计算方法。现在给定n个整数，你需要将每个整数四舍五入到最接近的整十数。\n\n规则：个位数小于5则舍去（如43→40），个位数大于等于5则进位（如58→60）。\n\n**【输入格式】**\n\n第一行，一个整数 n，表示接下来输入的整数个数。\n\n接下来n行，每行一个整数，表示需要处理的数。\n\n**【输出格式】**\n\nn行，每行一个整数，表示四舍五入到整十后的结果。\n\n**【样例输入1】**\n\n```\n5\n43\n58\n25\n67\n90\n```\n\n**【样例输出1】**\n\n```\n40\n60\n30\n70\n90\n```\n\n**【数据范围】**\n\n对于所有测试点，保证 1 ≤ n ≤ 100，每个整数 1 ≤ x ≤ 10000。"
+    }
+  ]
+}

@@ -29,7 +29,8 @@
           "text": "智能音箱被菜市场的声音震坏了"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 2,
@@ -53,7 +54,8 @@
           "text": "可以直接根据AI分析结果分配扶贫资金"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 3,
@@ -77,7 +79,8 @@
           "text": "人类不擅长数学所以不如AI"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 4,
@@ -101,7 +104,8 @@
           "text": "以后不用洗水果可以直接吃了"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 5,
@@ -125,7 +129,8 @@
           "text": "拒绝工作等待人工帮助"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 6,
@@ -149,7 +154,8 @@
           "text": "让AI写一篇赏析文章直接提交"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 7,
@@ -173,7 +179,8 @@
           "text": "把垃圾原样吐出来"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 8,
@@ -197,7 +204,8 @@
           "text": "AI做出的法律建议具有法律效力"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 9,
@@ -221,7 +229,8 @@
           "text": "AI预测比任何传统方法都准确百倍"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 10,
@@ -245,7 +254,8 @@
           "text": "用户不应该看新闻"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 11,
@@ -269,7 +279,8 @@
           "text": "应该完全弃用AI设计工具"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 12,
@@ -293,7 +304,8 @@
           "text": "学校应该放弃使用AI考勤"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 13,
@@ -317,7 +329,8 @@
           "text": "AI碰巧画出了和该画家相似的作品"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 14,
@@ -341,7 +354,8 @@
           "text": "AI测量游泳运动员触壁的时间"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 15,
@@ -365,7 +379,8 @@
           "text": "AI环保系统的传感器怕水"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 16,
@@ -389,7 +404,8 @@
           "text": "AI应该只优化主干道"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 17,
@@ -413,7 +429,8 @@
           "text": "随机推荐不针对个人"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 18,
@@ -437,7 +454,8 @@
           "text": "农业不应该使用AI技术"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 19,
@@ -461,7 +479,8 @@
           "text": "免费版没有安装最新的更新"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 20,
@@ -485,7 +504,8 @@
           "text": "AI导览系统出现故障"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 21,
@@ -509,7 +529,8 @@
           "text": "AI辅助设备应该免费提供给所有视障人士"
         }
       ],
-      "answer": "B"
+      "answer": "B",
+      "type": "choice"
     },
     {
       "id": 22,
@@ -533,7 +554,8 @@
           "text": "用户不会使用新闻摘要工具"
         }
       ],
-      "answer": "A"
+      "answer": "A",
+      "type": "choice"
     },
     {
       "id": 23,
@@ -557,7 +579,8 @@
           "text": "AI助手的提醒功能应该取消"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 24,
@@ -581,7 +604,8 @@
           "text": "拆除所有AI安防设备"
         }
       ],
-      "answer": "C"
+      "answer": "C",
+      "type": "choice"
     },
     {
       "id": 25,
@@ -605,7 +629,8 @@
           "text": "AI是强大的工具，既带来机遇也带来挑战，需要人类智慧地引导"
         }
       ],
-      "answer": "D"
+      "answer": "D",
+      "type": "choice"
     }
   ]
 }
